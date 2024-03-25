@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: blue;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#tarefas {
+  margin-bottom: 30px;
+}
+
+adicionar-tarefa, input, button{
+  position: relative;
+  left: 550px;
+  font-weight: bold;
+}
